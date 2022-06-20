@@ -19,5 +19,5 @@ foreach($i in $afetados){
     #em caso de teste antes de apagar use o sleep
     #Start-Sleep -Seconds 1
 
-
+ 
 }
