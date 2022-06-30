@@ -1,4 +1,4 @@
-﻿#pega lista de e-mails 
+﻿#pega lista de e-mails definida
 
 $afetados = Get-Content -Path C:\Users\usuario\Desktop\listadeemails.txt
 
@@ -6,7 +6,7 @@ $afetados = Get-Content -Path C:\Users\usuario\Desktop\listadeemails.txt
 
 foreach($i in $afetados){
 
-    #limpa a informação
+    #limpa a informação para melhor uso
 
     $i = $i -split ('@')
     $i = $i[0]
