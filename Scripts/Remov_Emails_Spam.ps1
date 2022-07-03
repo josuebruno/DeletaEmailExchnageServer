@@ -17,7 +17,5 @@ foreach($i in $afetados){
     Search-Mailbox -Identity "$i" -SearchQuery 'Subject:"1qaz!qaz"' -DeleteContent -force
 
     #em caso de teste antes de apagar use o sleep
-    #Start-Sleep -Seconds 1
-
- 
+    #Start-Sleep -Seconds 
 }
